@@ -11,7 +11,7 @@ function handleSubmit(e) {
   });
 
   //make a request to the server with our form data as the body
-  fetch("http://localhost:5000/message", {
+  fetch("https://user-input-form-render-1.onrender.com/", {
     method: "POST",
     body: JSON.stringify({
       username: username,
